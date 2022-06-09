@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+/* min */
+@media (min-width: 1020px) {
+  .engagement .teks {
+    /* margin-top: 100px; */
+  }
+  .what {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .engagement {
+    margin-top: 50px;
+  }
+
+  .assist .teks {
+    margin-top: 100px;
+  }
+
+  .show {
+    margin-top: 149px;
+  }
+}
+
+/* max */
+@media (max-width: 426px) {
+  .engagement {
+    margin-top: 50px;
+  }
+  .industry,
+  .useCases {
+    margin-top: 20px;
+  }
+  .kaki {
+    margin-top: 20px;
+  }
+  .engagement .logo {
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .bg_contain{
+    height: 300px !important;
+  }
+  .engagement .logo1 {
+    margin-top: 50px;
+  }
+  .attain .browse {
+    margin-top: 5px;
+  }
+  .faster .teks {
+    margin-top: 50px;
+  }
+  .show {
+    margin-top: 50px;
+  }
+  .show .teks {
+    margin-bottom: 50px;
+  }
+  /* .be .gambar {
+    display: none;
+  } */
+  .be .teks {
+    margin-top: -100px;
+  }
+  .assist {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  /* .assist .gambar {
+    display: none;
+  } */
+  .what .teks {
+    margin-top: 100px;
+  }
+  .what .gambar {
+    margin-top: 50px;
+  }
+  .subscribe {
+    display: none;
+  }
+  .useCases {
+    margin-top: 10px;
+  }
+  .insurant_img{
+    width: 100%;
+  }
+}
+
+/* nav */
+nav .right .bookDemo {
+  border-radius: 20px;
+  border: 2px solid;
+}
+
+.sponsor img {
+  height: 20px;
+}
+.sponsor ul li {
+  display: inline-block;
+
+  padding: 0 30px;
+}
+nav .logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  margin-left: 10px;
+}
+/* engagement */
+.engagement h1 span {
+  color: #f8cc5f;
+}
+.engagement .bookDemo {
+  border-radius: 20px;
+}
+.engagement .tryFor {
+  border-radius: 20px;
+  border: 2px solid;
+}
+.engagement .logo1 {
+  background-image: url("assets/assets1.png");
+
+  /* display: flex; */
+  /* background-attachment: fixed; */
+  /* background-size: 100% 100%;
+  background-repeat: no-repeat; */
+}
+.bg_contain {
+  background-size: contain;
+  /* width: 100%; */
+  height: 600px;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.engagement .teks {
+  display: flex;
+  align-items: center;
+}
+
+/* arrow */
+.arrow {
+  font-size: 50px;
+}
+
+/* sponsor */
+.sponsor {
+  background-color: #e5e5e5;
+}
+.sponsor .logo {
+  font-size: 17px;
+  color: rgb(68, 68, 68);
+}
+
+/* attain */
+.attain {
+  margin-top: 140px;
+}
+.attain .getStarted {
+  border-radius: 20px;
+}
+.attain .browse {
+  border-radius: 20px;
+  border: 2px solid;
+}
+.attain .support {
+  background-color: #f6f5f1;
+}
+.attain .arah {
+  font-size: 40px;
+}
+
+.faster .logo2 {
+  background-image: url("assets/asstets2.png");
+}
+/* footer */
+footer li {
+  color: rgb(182, 182, 182);
+  font-size: 14px;
+}
+
+footer h5 {
+  color: white;
+}
+footer a {
+  text-decoration: none;
+}
+.bi-arrow-down-circle{
+  width: 20px;
+}
